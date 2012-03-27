@@ -5,3 +5,15 @@ h1. zlist
 bc. $ python zlist.py file.css
 
 Parses your CSS files for z-index declarations and builds an ordered list of them. Useful for debugging/editing stacking orders.
+
+*Sample output*
+
+bc.. test.css: 3 z-index declaration(s) found
+
+     index  |  selector
+------------------------------
+        10     .header
+        30     .footer
+               .footer2
+               .footer3
+        50     .main
