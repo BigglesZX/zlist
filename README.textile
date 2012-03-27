@@ -1,0 +1,6 @@
+h1. zlist
+
+*Usage*
+bc. $ python zlist.py file.css
+
+Parses your CSS files for z-index declarations and builds an ordered list of them. Useful for debugging/editing stacking orders.
