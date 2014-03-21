@@ -1,0 +1,9 @@
+Changelog
+=========
+
+2.0.0 (March 21st, 2014)
+--------------------------
+
+* Improved: Converted old script into installable package
+* New: Added to PyPi
+* New: Added argparse to display help message
