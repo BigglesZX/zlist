@@ -50,7 +50,7 @@ def main():
         if zlist:
             print "%s: %d z-index declaration(s) found\n" % (filename, len(zlist))
             print "index  |".rjust(13), " selector\n", "".rjust(30, '-')
-            zlist.sort(key=lambda entry: int(entry[0]))
+            zlist.sort(key=lambda entry: int(entry[0]) if entry[0].isdigit() else entry[0])
             for entry in zlist:
                 print entry[0].rjust(10), "".rjust(3),
                 for selector in entry[1]:

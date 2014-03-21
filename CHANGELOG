@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.0.1 (March 21st, 2014)
+--------------------------
+
+* Fixed: Parsing no longer chokes on "auto" values for z-index
+
+
 2.0.0 (March 21st, 2014)
 --------------------------
 
