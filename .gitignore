@@ -1,5 +1,6 @@
 *.pyc
 *.egg
-*.egg-info
+*.egg-info/
+dist/
 Thumbs.db
 .DS_Store
