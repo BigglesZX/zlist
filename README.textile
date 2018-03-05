@@ -2,7 +2,7 @@ h1. zlist
 
 Parses your CSS files for z-index declarations and builds an ordered list of them. Useful for debugging/editing stacking orders.
 
-!https://pypip.in/download/zlist/badge.svg?period=month! !https://pypip.in/version/zlist/badge.svg! !https://pypip.in/py_versions/zlist/badge.svg! !https://pypip.in/status/zlist/badge.svg!
+!https://img.shields.io/pypi/dm/zlist.svg! !https://img.shields.io/pypi/v/zlist.svg! !https://img.shields.io/pypi/pyversions/zlist.svg! !https://img.shields.io/pypi/status/zlist.svg!
 
 h2. Installation
 
